@@ -42,7 +42,7 @@ defmodule AshUUIDv7.MixProject do
 
   defp deps do
     [
-      {:ash, "~> 3.0.0"},
+      {:ash, "~> 3.5"},
       {:ash_postgres, "~> 2.6"},
       # Testing, documentation, and release tools
       {:mix_test_interactive, ">= 0.0.0", only: :test, runtime: false},
